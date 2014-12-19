@@ -50,7 +50,7 @@ abstract class AbstractClientInformationViewHelper extends AbstractConditionView
 	 * Set the user-agent
 	 *
 	 * @param string $userAgent
-	 * @return \Emtec\EmtecMail\ViewHelpers\If\Client\AbstractClientInformationViewHelper
+	 * @return \ViewHelpers\If\Client\AbstractClientInformationViewHelper
 	 */
 	public function setUserAgent($userAgent) {
 		$this->userAgent = $userAgent;
